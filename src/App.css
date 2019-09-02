@@ -1,33 +1,164 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
 .App {
+  font-family: "Tahoma";
+  text-align: center;
+  background: orange;
+  height: 100%;
+  width: 100%;
+}
+
+.Nav-Bar {
+  display: flex;
+  position: sticky;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style-type: none;
+  z-index: 1;
+  top: 0px;
+  opacity: 0.9;
+  min-height: 3.5vh;
+  margin: 0 auto;
+  background: rgb(255, 140, 26);
+}
+
+.Nav-Kids {
+  flex: 1;
+  flex-wrap: wrap;
+  align-items: center;
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
+.Home-Page {
+  margin: auto;
+} 
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Intro-Context {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+
+.Intro-Image {
+  position: relative;
+  width: 100vw;
+  height: 120vh;
+}
+
+.Intro-Writing {
   color: white;
+  padding: 20px;
+  position: absolute;
+  font-size: 1.5em;
+  font-family: "Tahoma";
+  font-style: italic;
+  text-align: center;
+} 
+
+
+.About-Container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 2rem;
+  margin: 0;
+  background-color: rgb(250, 91, 6);
 }
 
-.App-link {
-  color: #61dafb;
+.Float-Me {
+    flex: 1;
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+    border: 5px white solid;
+    background-color: white;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+    transform: translatey(0px);
+    animation: float 6s ease-in-out infinite;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.face {
+  width: 100%; 
+  height: 100%; 
 }
+
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+
+.About-header {
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.About-item {
+  flex: 1;
+  text-align: center;
+  font-size: 1.25rem;
+  padding: 2rem 2rem;
+}
+/*
+.Skills-Page {
+  width: 100%;
+  background-color: rgba(255, 153, 0, 0.699);
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
+
+.Skills-Container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.JavaScript {
+  flex: 1;
+  width: 80px;
+}
+
+.React {
+  flex: 1;
+  width: 80px;
+}
+
+.Node {
+  flex: 1;
+  width: 80px;
+}
+
+.HTML {
+  flex: 1;
+  width: 80px;
+}
+
+.CSS {
+  flex: 1;
+  width: 80px;
+}
+
+.Git {
+  flex: 1;
+  width: 80px;
+}*/
