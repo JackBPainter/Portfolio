@@ -23,7 +23,7 @@
   opacity: 0.9;
   min-height: 3.5vh;
   margin: 0 auto;
-  background: rgb(255, 140, 26);
+  background: rgba(255, 153, 0);
 }
 
 .Nav-Kids {
@@ -69,7 +69,8 @@
   width: 100%;
   padding-top: 2rem;
   margin: 0;
-  background-color: rgb(250, 91, 6);
+  color: black;
+  background: white;
 }
 
 .Float-Me {
@@ -78,7 +79,7 @@
     height: 150px;
     box-sizing: border-box;
     border: 5px white solid;
-    background-color: white;
+    background: white;
     border-radius: 50%;
     overflow: hidden;
     box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
@@ -122,7 +123,7 @@
 
 .Skills-Page {
   width: 100%;
-  background-color: rgba(255, 153, 0, 0.699);
+  background-color: rgba(255, 153, 0);
   padding: 0;
   margin: 0;
   align-items: center;
@@ -131,34 +132,27 @@
 .Skills-Container {
   display: flex;
   justify-content: space-around;
+  flex-direction: column;
+  padding: 2rem;
 }
 
-.JavaScript {
+.Skills-Header {
+  padding: 1rem;
+}
+
+.Skill {
   flex: 1;
   width: 80px;
 }
 
-.React {
-  flex: 1;
-  width: 80px;
+.Projects-Page {
+  background: white;
 }
 
-.Node {
-  flex: 1;
-  width: 80px;
+.Projects-Container {
+  padding: 2rem;
 }
 
-.HTML {
-  flex: 1;
-  width: 80px;
-}
-
-.CSS {
-  flex: 1;
-  width: 80px;
-}
-
-.Git {
-  flex: 1;
-  width: 80px;
+.Projects-header {
+  padding: 1rem;
 }

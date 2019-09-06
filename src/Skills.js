@@ -10,12 +10,17 @@ export default function Skills() {
   return (
     <div className="Skills-Page">
       <div className="Skills-Container">
-        <img className="JavaScript" src={JavascriptLogo} alt="JS Logo" />
-        <img className="React" src={ReactLogo} alt="React Logo" />
-        <img className="Node" src={NodeLogo} alt="Node Logo" />
-        <img className="HTML" src={HTMLLogo} alt="HTML Logo" />
-        <img className="CSS" src={CSSLogo} alt="CSS Logo" />
-        <img className="Git" src={GitLogo} alt="Git Logo" />
+        <h2 className="Skills-Header">Primary Skills</h2>
+        <div>
+          <img className="Skill" src={JavascriptLogo} alt="JavaScript" />
+          <img className="Skill" src={ReactLogo} alt="React" />
+          <img className="Skill" src={NodeLogo} alt="Node" />
+        </div>
+        <div>
+          <img className="Skill" src={HTMLLogo} alt="HTML" />
+          <img className="Skill" src={CSSLogo} alt="CSS" />
+          <img className="Skill" src={GitLogo} alt="Git" />
+        </div>
       </div>
     </div>
   );

@@ -7,7 +7,7 @@ export default function About() {
       <div className="Float-Me">
         <img className="face" src={Face} alt="My Face"/>
       </div>
-      <h2 className="About-header">About me</h2>
+      <h2 className="About-header">About Me</h2>
       <p className="About-item">
         My name is Jack Painter and I am a enthusiastic and passionate junior
         full-stack developer. After more than 4 years of working on the sales
