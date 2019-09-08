@@ -6,7 +6,6 @@
 }
 
 .App {
-  text-align: center;
   background: orange;
   height: 100%;
   width: 100%;
@@ -51,6 +50,11 @@
 
 .Intro-Writing {
   color: white;
+  text-shadow: 
+  -1px -1px 0 black,
+  1px -1px 0 black,
+  -1px 1px 0 black,
+  1px 1px 0 black;
   padding: 20px;
   position: absolute;
   font-size: 1.5em;
@@ -116,6 +120,7 @@
   display: flex;
   justify-content: space-around;
   flex-direction: column;
+  align-items: center;
   padding: 2rem;
 }
 
@@ -130,12 +135,8 @@
 
 .Projects-Page {
   background: white;
-  align-items: center;
-  padding: 2rem;
-}
-
-.Projects-header {
   text-align: center;
+  padding: 2rem;
 }
 
 .Projects-Icon-Container {
@@ -168,6 +169,23 @@
 
 .Project-Info {
   flex: 1;
+}
+
+.Contact-Page {
+  background: rgba(255, 153, 0);
+}
+
+.Contact-Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 2rem 1rem;
+}
+
+.Contact {
+  flex: 1;
+  padding: 0.15rem;
+  font-size: 1rem;
 }
 
 @keyframes float {
