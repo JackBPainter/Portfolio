@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   border: 0;
@@ -10,31 +10,42 @@
   height: 100%;
   width: 100%;
 }
+/* Nav Bar */
 
-.Nav-Bar {
-  display: flex;
+ul {
   position: sticky;
-  justify-content: flex-start;
-  align-items: center;
-  list-style-type: none;
   z-index: 1;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
   top: 0px;
-  opacity: 0.9;
-  min-height: 3.5vh;
-  margin: 0 auto;
-  background: rgba(255, 153, 0);
+  opacity: 0.95;
+  overflow: hidden;
+  border-bottom: 0.25px solid white;
+  background: rgba(255, 153, 0)
 }
 
-.Nav-Kids {
-  flex: 1;
-  flex-wrap: wrap;
-  align-items: center;
+li {
+  float: right;
+  border-left: 0.25px solid white;
+}
+
+li a {
+  display: block;
+  color: black;
   text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
+li a:hover {
+  background-color: white;
+}
+
+/* Home Page */
 .Home-Page {
   margin: auto;
-} 
+}
 
 .Intro-Context {
   display: flex;
@@ -50,18 +61,21 @@
 
 .Intro-Writing {
   color: white;
-  text-shadow: 
-  -1px -1px 0 black,
-  1px -1px 0 black,
-  -1px 1px 0 black,
-  1px 1px 0 black;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+    1px 1px 0 black;
   padding: 20px;
   position: absolute;
   font-size: 1.5em;
   font-family: "Tahoma";
   text-align: center;
-} 
+}
 
+.Social-Icon {
+  width: 5vw;
+  height: 5vh;
+  color: white;
+}
+/* About Page */
 .About-Page {
   min-height: 100vh;
   background: white;
@@ -80,22 +94,22 @@
 }
 
 .Float-Me-About {
-    flex: 1;
-    width: 200px;
-    height: 200px;
-    box-sizing: border-box;
-    border: 0.5rem white solid;
-    background: white;
-    border-radius: 25%;
-    overflow: hidden;
-    box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-    transform: translatey(0px);
-    animation: float 6s ease-in-out infinite;
+  flex: 1;
+  width: 200px;
+  height: 200px;
+  box-sizing: border-box;
+  border: 0.5rem white solid;
+  background: white;
+  border-radius: 25%;
+  overflow: hidden;
+  box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+  transform: translatey(0px);
+  animation: float 6s ease-in-out infinite;
 }
 
 .face {
-  width: 100%; 
-  height: 100%; 
+  width: 100%;
+  height: 100%;
 }
 
 .About-header {
@@ -110,7 +124,7 @@
   padding: 2rem 2rem;
   max-width: 700px;
 }
-
+/* Skills Page */
 .Skills-Page {
   width: 100%;
   min-height: 100vh;
@@ -138,7 +152,7 @@
   width: 120px;
   height: 120px;
 }
-
+/* Projects */
 .Projects-Page {
   background: white;
   text-align: center;
@@ -169,7 +183,7 @@
   background: white;
   border-radius: 25%;
   overflow: hidden;
-  box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+  box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
   transform: translatey(0px);
   animation: float 6s ease-in-out infinite;
 }
@@ -177,7 +191,7 @@
 .Project-Info {
   flex: 1;
 }
-
+/* Contact Page */
 .Contact-Page {
   background: rgba(255, 153, 0);
   min-height: 25vh;
@@ -197,7 +211,7 @@
   font-size: 1.2rem;
 }
 
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 410px) {
   .Contact {
     font-size: 1rem;
   }
@@ -205,20 +219,24 @@
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
+    padding-left: 2.7rem;
+  }
+  li a {
+    padding: 8px 10px;
   }
 }
 
 @keyframes float {
-	0% {
-		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-		transform: translatey(0px);
-	}
-	50% {
-		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
-		transform: translatey(-20px);
-	}
-	100% {
-		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-		transform: translatey(0px);
-	}
+  0% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+  50% {
+    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+    transform: translatey(-20px);
+  }
+  100% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
 }
