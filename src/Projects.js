@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Projects() {
   return (
-    <div className="Projects-Page">
-      <h2 className="Projects-Header">My Projects</h2>
+    <div className="Projects-Page" id="Projects">
+      <h1 className="Projects-Header">My Projects</h1>
       <div className="Projects-Icon-Container">
           <div className="Float-Me-Projects">
           </div>

@@ -8,9 +8,9 @@ import GitLogo from "./mainImages/GitLogo.png";
 
 export default function Skills() {
   return (
-    <div className="Skills-Page">
+    <div className="Skills-Page" id="Skills">
+      <h1 className="Skills-Header">Primary Skills</h1>
       <div className="Skills-Container">
-        <h2 className="Skills-Header">Primary Skills</h2>
         <div>
           <img className="Skill" src={JavascriptLogo} alt="JavaScript" />
           <img className="Skill" src={ReactLogo} alt="React" />

@@ -3,7 +3,7 @@ import mainBackground from "./mainImages/background.png";
 
 export default function Home() {
   return (
-    <container className="Home-Page">
+    <container className="Home-Page" id="Home">
       <div className="Intro-Context">
         <img className="Intro-Image" src={mainBackground} alt="background" />
         <div className="Intro-Writing">

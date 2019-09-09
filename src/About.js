@@ -3,11 +3,12 @@ import Face from "./mainImages/myFace.png";
 
 export default function About() {
   return (
+    <div className="About-Page" id="About">
     <div className="About-Container">
       <div className="Float-Me-About">
         <img className="face" src={Face} alt="My Face"/>
       </div>
-      <h2 className="About-header">About Me</h2>
+      <h1 className="About-header">About Me</h1>
       <p className="About-writing">
         Hey I'm Jack, an enthusiastic and passionate junior
         full-stack developer. After more than 4 years of working on the sales
@@ -24,6 +25,7 @@ export default function About() {
         welcome), gaming, listening to vinyls, attending meetups and following
         the Formula 1 & football.
       </p>
+    </div>
     </div>
   );
 }

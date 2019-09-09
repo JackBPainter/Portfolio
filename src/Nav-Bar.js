@@ -4,19 +4,19 @@ export default function NavBar() {
   return (
   <ul className="Nav-Bar">
     <li className="Nav-Kids">
-      <a href="#home">Home</a>
+      <a href="#Home">Home</a>
     </li>
     <li className="Nav-Kids">
-      <a href="#about">About</a>
+      <a href="#About">About</a>
     </li>
     <li className="Nav-Kids">
-      <a href="#skills">Skills</a>
+      <a href="#Skills">Skills</a>
     </li>
     <li className="Nav-Kids">
-      <a href="#portfolio">Portfolio</a>
+      <a href="#Projects">Projects</a>
     </li>
     <li className="Nav-Kids">
-      <a href="#contact">Contact</a>
+      <a href="#Contact">Contact</a>
     </li>
   </ul>
   )
