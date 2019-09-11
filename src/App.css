@@ -12,17 +12,30 @@
 }
 /* Nav Bar */
 
-ul {
+.Nav-Bar {
   position: sticky;
   z-index: 1;
+  top: 0px;
+}
+
+.Social-Icon {
+  width: 1.2rem;
+  height: 1.2rem;
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  color: white;
+  border-right: 0.25px solid white;
+}
+
+.Nav-Bar-Container {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  top: 0px;
   opacity: 0.95;
   overflow: hidden;
   border-bottom: 0.25px solid white;
-  background: rgba(255, 153, 0)
+  background: rgba(255, 153, 0);
 }
 
 li {
@@ -33,6 +46,7 @@ li {
 li a {
   display: block;
   color: black;
+  font-size: 1rem;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -70,11 +84,6 @@ li a:hover {
   text-align: center;
 }
 
-.Social-Icon {
-  width: 5vw;
-  height: 5vh;
-  color: white;
-}
 /* About Page */
 .About-Page {
   min-height: 100vh;
@@ -211,9 +220,9 @@ li a:hover {
   font-size: 1.2rem;
 }
 
-@media only screen and (max-width: 410px) {
+@media only screen and (max-width: 390px) {
   .Contact {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   .Skills-Container {
     display: flex;
@@ -222,7 +231,22 @@ li a:hover {
     padding-left: 2.7rem;
   }
   li a {
-    padding: 8px 10px;
+    font-size: 0.75rem;
+    padding: 4px 6px;
+  }
+  .Social-Icon {
+    width: 0.8rem;
+    height: 0.8rem;
+    padding: 4px 6px;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  li a {
+    padding: 6px 8px;
+  }
+  .Social-Icon {
+    padding: 6px 8px;
   }
 }
 
