@@ -28,6 +28,10 @@
   border-right: 0.25px solid white;
 }
 
+.Social-Icon:hover {
+    background-color: white;
+}
+
 .Nav-Bar-Container {
   list-style-type: none;
   margin: 0;
