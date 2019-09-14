@@ -16,9 +16,8 @@ export default function About() {
         all and become a developer.
         <br />
         <br />
-        Currently I'm on an intensive full-stack development course with Kodiri
-        where I am using JavaScript, React, Node, HTML and CSS to develop a
-        Netflix clone alongside a soon to be disclosed group project.
+        Currently I'm on an intensive agile full-stack development course with Kodiri
+        where I am predominately working with JavaScript, React, Node, HTML and CSS. 
         <br />
         <br />
         When I'm not coding you'll find me playing about with my DSLR (any tips would be very
