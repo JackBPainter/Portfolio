@@ -6,7 +6,7 @@ export default function About() {
     <div className="About-Page" id="About">
     <div className="About-Container">
       <div className="Float-Me-About">
-        <img className="face" src={Face} alt="My Face"/>
+        <img className="Face" src={Face} alt="My Face"/>
       </div>
       <h1 className="About-header">About Me</h1>
       <p className="About-writing">
