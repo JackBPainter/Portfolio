@@ -13,14 +13,14 @@ export default function app() {
       <head>
         <script src="https://kit.fontawesome.com/b5bff501df.js"></script>
       </head>
-      <NavBar />
-      <body>
+      <div>
+        <NavBar />
         <Home />
         <About />
         <Skills />
         <Projects />
         <Contact />
-      </body>
+      </div>
     </div>
   );
 }
