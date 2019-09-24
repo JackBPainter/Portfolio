@@ -11,12 +11,12 @@ export default function Skills() {
     <div className="Skills-Page" id="Skills">
       <h1 className="Skills-Header">Primary Skills</h1>
       <div className="Skills-Container">
-        <div>
+        <div className="Skills">
           <img className="Skill" src={JavascriptLogo} alt="JavaScript" />
           <img className="Skill" src={ReactLogo} alt="React" />
           <img className="Skill" src={NodeLogo} alt="Node" />
         </div>
-        <div>
+        <div className="Skills">
           <img className="Skill" src={HTMLLogo} alt="HTML" />
           <img className="Skill" src={CSSLogo} alt="CSS" />
           <img className="Skill" src={GitLogo} alt="Git" />
