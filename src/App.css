@@ -211,6 +211,7 @@ li a:hover {
   align-items: center;
 }
 
+<<<<<<< HEAD
 
 .Kodflix {
   flex: 1;
@@ -220,31 +221,48 @@ li a:hover {
 
 .Tetris {
   flex: 1;
+=======
+.Kodflix {
+>>>>>>> Add commits to Gh-Pages
   width: 100%;
   height: 100%;
 }
 
 .Calculator {
+<<<<<<< HEAD
   flex: 2;
+=======
+>>>>>>> Add commits to Gh-Pages
   width: 100%;
   height: 100%;
 }
 
 .progrAmateur {
+<<<<<<< HEAD
   flex: 1;
+=======
+>>>>>>> Add commits to Gh-Pages
   width: 100%;
   height: 100%;
 }
 
 .Projects-Text {
   font-size: 1.2rem;
+<<<<<<< HEAD
   font-weight: bold;
+=======
+>>>>>>> Add commits to Gh-Pages
 }
 
 .Float-Me-Projects {
   flex: 1;
+<<<<<<< HEAD
   width: 40vw;
   height: 40vw;
+=======
+  width: 315px;
+  height: 315px;
+>>>>>>> Add commits to Gh-Pages
   margin: 0.5rem;
   box-sizing: border-box;
   border: 0.5rem rgba(255, 153, 0) solid;
