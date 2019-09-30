@@ -18,10 +18,10 @@ export default function NavBar() {
           <a href="#About">About</a>
         </li>
         <li>
-          <a href="#Projects">Projects</a>
+          <a href="#Skills">Skills</a>
         </li>
         <li>
-          <a href="#Skills">Skills</a>
+          <a href="#Projects">Projects</a>
         </li>
         <li>
           <a href="#Contact">Contact</a>

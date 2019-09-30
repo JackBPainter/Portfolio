@@ -248,6 +248,12 @@ li a:hover {
 .Project-Info {
   flex: 1;
 }
+
+.Heroku-Links {
+  color: blue;
+  text-decoration: underline;
+}
+
 /* Contact Page */
 .Contact-Page {
   background: rgba(255, 153, 0);
