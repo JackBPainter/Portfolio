@@ -16,8 +16,10 @@ export default function About() {
         all and become a developer.
         <br />
         <br />
-        Currently I'm on an intensive agile full-stack development course with Kodiri
-        where I am predominately working with JavaScript, React, Node, HTML and CSS. 
+        I have just completed a 2-month  agile full-stack development course with Kodiri
+        where I  predominately worked with JavaScript, React, Node, HTML and CSS. I made 
+        a Netflix clone, bill calulator and a messaging application whilst there and I am 
+        now planning to create a Tetris application using hook based functional components.
         <br />
         <br />
         When I'm not coding you'll find me playing about with my DSLR (any tips would be very

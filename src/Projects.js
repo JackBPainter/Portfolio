@@ -24,7 +24,7 @@ export default function Projects() {
               <img className="progrAmateur" src={progrAmateur} alt="progrAmateur" />
           </div>
           <br />
-          <p className="Projects-Text">progrAmateur<br />(Junior Developer Forum)</p>
+          <p className="Projects-Text">progrAmateur<br />(Junior Developer messaging application)</p>
           <br />
       </div>
     </div>
