@@ -8,7 +8,7 @@ export default function Home() {
         <img className="Intro-Image" src={mainBackground} alt="background" />
         <div className="Intro-Writing">
           <h1>Jack Painter</h1>
-          <h2>Full-Stack Developer</h2>
+          <h2>JS/React Developer</h2>
           <h2>(London)</h2>
           <br />
         </div>
