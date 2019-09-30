@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.027f985d.chunk.css",
+    "main.js": "/Portfolio/static/js/main.5d8b360d.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.5d8b360d.chunk.js.map",
+    "runtime~main.js": "/Portfolio/static/js/runtime~main.3a3ea873.js",
+    "runtime~main.js.map": "/Portfolio/static/js/runtime~main.3a3ea873.js.map",
+    "static/css/2.725fd0e4.chunk.css": "/Portfolio/static/css/2.725fd0e4.chunk.css",
+    "static/js/2.61e3b158.chunk.js": "/Portfolio/static/js/2.61e3b158.chunk.js",
+    "static/js/2.61e3b158.chunk.js.map": "/Portfolio/static/js/2.61e3b158.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "precache-manifest.7e31aa568d92dc2e4157eb5366ec1981.js": "/Portfolio/precache-manifest.7e31aa568d92dc2e4157eb5366ec1981.js",
+    "service-worker.js": "/Portfolio/service-worker.js",
+    "static/css/2.725fd0e4.chunk.css.map": "/Portfolio/static/css/2.725fd0e4.chunk.css.map",
+    "static/css/main.027f985d.chunk.css.map": "/Portfolio/static/css/main.027f985d.chunk.css.map",
+    "static/media/Calculator-Full.png": "/Portfolio/static/media/Calculator-Full.c486344c.png",
+    "static/media/GitHub.svg": "/Portfolio/static/media/GitHub.57bc0d11.svg",
+    "static/media/HTMLLogo.png": "/Portfolio/static/media/HTMLLogo.ce09bba8.png",
+    "static/media/Kodflix-Full.png": "/Portfolio/static/media/Kodflix-Full.8cdee55f.png",
+    "static/media/LinkedIn.svg": "/Portfolio/static/media/LinkedIn.9bfd841b.svg",
+    "static/media/ProgramateurFinal.png": "/Portfolio/static/media/ProgramateurFinal.1e37257b.png",
+    "static/media/ReactLogo.png": "/Portfolio/static/media/ReactLogo.e02c8e22.png",
+    "static/media/background.png": "/Portfolio/static/media/background.c42711c6.png",
+    "static/media/font-awesome.min.css": "/Portfolio/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/myFace.png": "/Portfolio/static/media/myFace.082cda86.png"
+  }
+}
