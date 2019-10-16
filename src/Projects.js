@@ -1,8 +1,8 @@
 import React from "react";
-import Kodflix from "./mainImages/Kodflix-Full.png";
-import Calculator from "./mainImages/Calculator-Full.png";
-import progrAmateur from "./mainImages/ProgramateurFinal.png";
-import Tetris from "./mainImages/Tetris.png";
+import Kodflix from "./mainImages/Kodflix-Full.jpg";
+import Calculator from "./mainImages/Calculator-Full.jpg";
+import progrAmateur from "./mainImages/ProgramateurFinal.jpg";
+import Tetris from "./mainImages/Tetris.jpg";
 
 export default function Projects() {
   return (

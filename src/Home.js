@@ -1,5 +1,5 @@
 import React from "react";
-import mainBackground from "./mainImages/background.png";
+import mainBackground from "./mainImages/Background.jpg";
 
 export default function Home() {
   return (
