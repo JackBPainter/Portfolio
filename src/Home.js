@@ -1,9 +1,6 @@
 import React from "react";
-<<<<<<< HEAD
 import mainBackground from "./mainImages/Background.jpg";
-=======
 import mainBackground from "./mainImages/background.png";
->>>>>>> Add commits to Gh-Pages
 
 export default function Home() {
   return (
