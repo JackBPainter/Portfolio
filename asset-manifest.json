@@ -1,16 +1,28 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.52a1ec99.chunk.css",
-    "main.js": "/Portfolio/static/js/main.0d91ae53.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.0d91ae53.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.fd559b8b.chunk.css",
+    "main.js": "/Portfolio/static/js/main.8f41341a.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.8f41341a.chunk.js.map",
     "runtime~main.js": "/Portfolio/static/js/runtime~main.3a3ea873.js",
     "runtime~main.js.map": "/Portfolio/static/js/runtime~main.3a3ea873.js.map",
-    "static/js/2.917ae229.chunk.js": "/Portfolio/static/js/2.917ae229.chunk.js",
-    "static/js/2.917ae229.chunk.js.map": "/Portfolio/static/js/2.917ae229.chunk.js.map",
+    "static/css/2.725fd0e4.chunk.css": "/Portfolio/static/css/2.725fd0e4.chunk.css",
+    "static/js/2.51e7399d.chunk.js": "/Portfolio/static/js/2.51e7399d.chunk.js",
+    "static/js/2.51e7399d.chunk.js.map": "/Portfolio/static/js/2.51e7399d.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.c60cec3a81f389eb9483d5dec4533165.js": "/Portfolio/precache-manifest.c60cec3a81f389eb9483d5dec4533165.js",
+    "precache-manifest.dd76776ed12fdb6367b10451060c62ed.js": "/Portfolio/precache-manifest.dd76776ed12fdb6367b10451060c62ed.js",
     "service-worker.js": "/Portfolio/service-worker.js",
-    "static/css/main.52a1ec99.chunk.css.map": "/Portfolio/static/css/main.52a1ec99.chunk.css.map",
-    "static/media/background.png": "/Portfolio/static/media/background.c42711c6.png"
+    "static/css/2.725fd0e4.chunk.css.map": "/Portfolio/static/css/2.725fd0e4.chunk.css.map",
+    "static/css/main.fd559b8b.chunk.css.map": "/Portfolio/static/css/main.fd559b8b.chunk.css.map",
+    "static/media/Background.jpg": "/Portfolio/static/media/Background.2c7998d0.jpg",
+    "static/media/Calculator-Full.jpg": "/Portfolio/static/media/Calculator-Full.ace277ec.jpg",
+    "static/media/GitHub.svg": "/Portfolio/static/media/GitHub.57bc0d11.svg",
+    "static/media/HTMLLogo.png": "/Portfolio/static/media/HTMLLogo.ce09bba8.png",
+    "static/media/Kodflix-Full.jpg": "/Portfolio/static/media/Kodflix-Full.ce333d4c.jpg",
+    "static/media/LinkedIn.svg": "/Portfolio/static/media/LinkedIn.9bfd841b.svg",
+    "static/media/ProgramateurFinal.jpg": "/Portfolio/static/media/ProgramateurFinal.f8805dcd.jpg",
+    "static/media/ReactLogo.png": "/Portfolio/static/media/ReactLogo.e02c8e22.png",
+    "static/media/Tetris.jpg": "/Portfolio/static/media/Tetris.90e75ace.jpg",
+    "static/media/font-awesome.min.css": "/Portfolio/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/myFace.png": "/Portfolio/static/media/myFace.082cda86.png"
   }
 }
